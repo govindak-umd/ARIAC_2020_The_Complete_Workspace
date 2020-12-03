@@ -1,14 +1,13 @@
 /**
  * @file final_node.cpp
- * @author Govind Ajith Kumar, Rajesh NS, Pradeep Gopal, Cheng, Dakota Abernathy
+ * @author Pradeep Gopal, Govind Ajith Kumar, Rajesh NS, Cheng, Dakota Abernathy
  * @copyright MIT License
- * @brief Implementation of the Utils class
- * This class contains all the different utilities such as template structs that are needed by other classes
+ * @brief Main file which runs the robot to pickup and deliver parts requested by the user
  */
 
 /**
  *MIT License
- *Copyright (c) 2020 Govind Ajith Kumar, Rajesh NS, Pradeep Gopal, Cheng, Dakota Abernathy
+ *Copyright (c) 2020 Pradeep Gopal, Govind Ajith Kumar, Rajesh NS, Cheng, Dakota Abernathy
  *Permission is hereby granted, free of charge, to any person obtaining a copy
  *of this software and associated documentation files (the "Software"), to deal
  *in the Software without restriction, including without limitation the rights
@@ -759,7 +758,7 @@ void pick_part_from_conveyor(Competition &comp, GantryControl &gantry) {
       ROS_INFO_STREAM("no part on belt");
     }
 
-    ros::Duration(2).sleep();
+//    ros::Duration(2).sleep();
   }
   conveyor_part_picked = true;
   ROS_INFO_STREAM("first part " << parts_from_camera_main[11][0].pose);
@@ -1201,6 +1200,10 @@ int main(int argc, char **argv) {
                   parts_from_camera_main[l][m].picked = true;
                   ROS_INFO_STREAM(
                       "picked status " << parts_from_camera_main[l][m].picked);
+
+                  if((parts_from_camera_main[l][m].type == "disk_part_green") && (m == 1))
+                    parts_from_camera_main[l][m] = parts_from_camera_main[l][m+3];
+
                   ROS_INFO_STREAM("Part found in environment");
                   ROS_INFO_STREAM(parts_from_camera_main[l][m].type);
 
@@ -1525,6 +1528,12 @@ int main(int argc, char **argv) {
                         .orientation.w;
 
                     gantry.pickPart(faulty_part);
+
+//                  geometry_msgs::Pose pose_above_part = faulty_part.pose;
+//                  pose_above_part.position.z = pose_above_part.position.z + 0.2;
+//                  gantry.reachOut(pose_above_part);   // reach out above part first
+//                  gantry.pickPart(faulty_part);   // pick up part
+//                  gantry.reachOut(pose_above_part);   // reach out above part first
 
                     if (master_vector_main[i][j][k].agv_id == "agv1") {
                       gantry.goToPresetLocation(gantry.agv1_drop_);

@@ -1,14 +1,15 @@
 /**
  * @file competition.cpp
- * @author Govind Ajith Kumar, Rajesh NS, Pradeep Gopal, Cheng, Dakota Abernathy
+ * @author Pradeep Gopal, Govind Ajith Kumar, Rajesh NS, Cheng, Dakota Abernathy
  * @copyright MIT License
- * @brief Implementation of the Utils class
- * This class contains all the different utilities such as template structs that are needed by other classes
+ * @brief Implementation of the competition class
+ * This class contains all the functions which are required to control all the sensors
+ * in the environment and also to control the competition start and ending
  */
 
 /**
  *MIT License
- *Copyright (c) 2020 Govind Ajith Kumar, Rajesh NS, Pradeep Gopal, Cheng, Dakota Abernathy
+ *Copyright (c) 2020 Pradeep Gopal, Govind Ajith Kumar, Rajesh NS, Cheng, Dakota Abernathy
  *Permission is hereby granted, free of charge, to any person obtaining a copy
  *of this software and associated documentation files (the "Software"), to deal
  *in the Software without restriction, including without limitation the rights

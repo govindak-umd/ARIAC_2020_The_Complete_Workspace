@@ -1,14 +1,13 @@
 /**
  * @file gantry_control.h
- * @author Govind Ajith Kumar, Rajesh NS, Pradeep Gopal, Cheng, Dakota Abernathy
+ * @author Pradeep Gopal, Govind Ajith Kumar, Rajesh NS, Cheng, Dakota Abernathy
  * @copyright MIT License
- * @brief Implementation of the Utils class
- * This class contains all the different utilities such as template structs that are needed by other classes
+ * @brief cpp file which takes care of all gantry movements and controls.
  */
 
 /**
  *MIT License
- *Copyright (c) 2020 Govind Ajith Kumar, Rajesh NS, Pradeep Gopal, Cheng, Dakota Abernathy
+ *Copyright (c) 2020 Pradeep Gopal, Govind Ajith Kumar, Rajesh NS, Cheng, Dakota Abernathy
  *Permission is hereby granted, free of charge, to any person obtaining a copy
  *of this software and associated documentation files (the "Software"), to deal
  *in the Software without restriction, including without limitation the rights
