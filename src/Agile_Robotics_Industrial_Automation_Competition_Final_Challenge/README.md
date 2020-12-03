@@ -12,6 +12,36 @@ Picking and delivering parts in an industrial environment with faulty parts/faul
 4. Dakota Abernathy
 5. Cheng Chen
 
+## Images
+
+<p align="center">
+  <img height="500" src="images/ARIAC.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ARIAC_2.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_3.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_4.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_5.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_6.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_7.png">
+</p>
+
 ## Steps to Run the package
 
 Install Ariac package in your workspace using the steps mentioned in the following link

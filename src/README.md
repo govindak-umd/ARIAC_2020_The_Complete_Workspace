@@ -1,6 +1,9 @@
-# ARIAC Competition
+# ARIAC Competition - ALL THE WORKSPACES
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
+This is a list of all the packages developed for the ARIAC-2020 Competition.
 
 
 Picking and delivering parts in an industrial environment with faulty parts/faulty gripper/sensor blackout/moving obstacles
@@ -12,18 +15,49 @@ Picking and delivering parts in an industrial environment with faulty parts/faul
 4. Dakota Abernathy
 5. Cheng Chen
 
+## Images
+
+<p align="center">
+  <img height="500" src="images/ARIAC.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ARIAC_2.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_3.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_4.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_5.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_6.png">
+</p>
+
+<p align="center">
+  <img height="500" src="images/ariac_7.png">
+</p>
+
 ## Steps to Run the package
 
 Install Ariac package in your workspace using the steps mentioned in the following link
 
 [Ariac Installation Instructions](https://github.com/usnistgov/ARIAC/blob/master/wiki/tutorials/installation.md)
 
-Follow these instructions to run the package after installing ARIAC
+Follow these instructions to run each package after installing ARIAC
+(note: You can paste all the packages here under ariac_ws/src before catkin build)
 
 1. Copy the package and paste it in /ariac_ws/src
 2. Open a terminal and type the following commands
 3. cd /ariac_ws
-4. catkin build final-group1 
+4. catkin build
 5. source devel/setup.bash
 6. roslaunch final-group1 final.launch load_moveit:=true
 

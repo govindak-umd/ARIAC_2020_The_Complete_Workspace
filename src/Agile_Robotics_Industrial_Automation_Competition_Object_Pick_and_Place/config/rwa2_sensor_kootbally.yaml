@@ -1,0 +1,128 @@
+sensors:
+  # depth_camera_0:
+  #   type: depth_camera
+  #   pose:
+  #     xyz: [3.082385, 1.750927, 1.82]
+  #     rpy: [0, 'pi/2', 0]
+
+
+  # laser_profiler_0:
+  #   type: laser_profiler
+  #   pose:
+  #     xyz: [0., 1.486, 1.526]
+  #     rpy: ['pi/2', 'pi/2', 0]
+
+  # range_finder_0:
+  #   type: proximity_sensor
+  #   pose:
+  #     xyz: [0, 2.840000, 0.970000]
+  #     rpy: [1.570796, 0.524365, 1.570796]
+
+  # breakbeam_0:
+  #   type: break_beam
+  #   pose:
+  #     xyz: [-0.004795, 4.492549, 0.879306]
+  #     rpy: [0, 0, -1.557900]
+
+
+  logical_camera_1: # left_topshelf_1
+    type: logical_camera
+    pose:
+      xyz: [-3.25 - 6*2.04, 3.020797, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_2: # left_topshelf_2
+    type: logical_camera
+    pose:
+      xyz: [-13.332640, 3.020797, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_3: 
+    type: logical_camera
+    pose:
+      xyz: [-15.49, 0, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_4: 
+    type: logical_camera
+    pose:
+      xyz: [-13.434241, 0, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_5: # left_bottomshelf_1
+    type: logical_camera
+    pose:
+      xyz: [-3.25 - 6*2.04, -3.020797, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_6: # left_bottomshelf_2
+    type: logical_camera
+    pose:
+      xyz: [-13.434241, -3.020797, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_7: # right_topshelf_1
+    type: logical_camera
+    pose:
+      xyz: [5, 3.737781, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_8: # right_topshelf_2
+    type: logical_camera
+    pose:
+      xyz: [2.946275, -3.737781, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_9: # right_topshelf_1
+    type: logical_camera
+    pose:
+      xyz: [5, -3.737781, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_10: # right_topshelf_2
+    type: logical_camera
+    pose:
+      xyz: [2.946275, 3.737781, 2.49]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_11:
+    type: logical_camera
+    pose:
+      xyz: [2.954065, 1.750927, 1.82]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_12:
+    type: logical_camera
+    pose:
+      xyz: [5, 1.750927, 1.82]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_13:
+    type: logical_camera
+    pose:
+      xyz: [2.954065, -1.750927, 1.82]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_14:
+    type: logical_camera
+    pose:
+      xyz: [5, -1.750927, 1.82]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_15:
+    type: logical_camera
+    pose:
+      xyz: [0,3.019730, 1.94]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_16:
+    type: logical_camera
+    pose:
+      xyz: [0,7.455913, 1.819]
+      rpy: [0, 'pi/2', 'pi/2']
+
+  logical_camera_17:
+    type: logical_camera
+    pose:
+      xyz: [0,-7.455913, 1.819]
+      rpy: [0, 'pi/2', 'pi/2']
